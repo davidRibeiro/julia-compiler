@@ -1,0 +1,7 @@
+If ((LOWER(NUM 2)(NUM 3))) then{ 
+	Assign (Var x)(NUM 2)Assign (Var y)(NUM 45)}
+Else{
+	Assign (Var y)(NUM 2)Assign (Var x)(NUM 45)}
+While ((LOWER(NUM 15)(NUM 20))){
+	Assign (Var compiladores)(NUM 20)}
+PRINTLN(Assign (Var x)(NUM 2))

@@ -1,0 +1,17 @@
+	lt t0 2 3
+	if_false t0 goto L1
+	add x 2 0
+	add y 45 0
+	goto L2
+Label L1:
+	add y 2 0
+	add x 45 0
+Label L2:
+Label L3:
+	lt t1 15 20
+	if_false t1 goto L4
+	add compiladores 20 0
+	goto L3
+Label L4:
+Println(	add x 2 0
+)

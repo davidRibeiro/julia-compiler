@@ -1,0 +1,21 @@
+	addi $t2 , $zero , 2
+	addi $t3 , $zero , 3
+	bge $t2 , $t3 , L1
+	addi $x , 2 , 0
+	addi $y , 45 , 0
+	j L2
+L1:
+	addi $y , 2 , 0
+	addi $x , 45 , 0
+L2:
+L3:
+	addi $t4 , $zero , 15
+	addi $t5 , $zero , 20
+	bge $t4 , $t5 , L4
+	addi $compiladores , 20 , 0
+	j L3
+L4:
+	addi $x , 2 , 0
+	move $a0, $Valor_Cmd_Print
+	li $v0, 1
+	syscall

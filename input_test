@@ -1,0 +1,11 @@
+if (2<3)
+x=2
+y=45
+else
+y=2
+x=45
+end
+while(15<20)
+compiladores=20
+end
+println(x=2)
